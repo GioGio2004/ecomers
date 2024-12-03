@@ -8,10 +8,8 @@ const port = 3000
 
 
 app.get('/', (req, res) =>{
-    res.send('Hello World girogi')
+    res.send('Hello World')
 })
-
-
 
 app.use('/products', productsRouter)
 
