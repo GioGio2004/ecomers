@@ -1,6 +1,11 @@
 import { Request, Response } from "express"
 
 export  function listProducts(req: Request, res:Response){
+    try{
+        
+    }catch{
+        
+    }
     res.send("listProducts")
 }
 

@@ -1,0 +1,1 @@
+ALTER TABLE "products" ADD COLUMN "age" double precision NOT NULL;

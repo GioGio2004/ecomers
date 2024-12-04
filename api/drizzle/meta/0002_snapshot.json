@@ -1,6 +1,6 @@
 {
-  "id": "a18231bc-d21e-42c0-a056-0ae35d0feb0b",
-  "prevId": "00000000-0000-0000-0000-000000000000",
+  "id": "5ce03dbe-6fe2-44d4-b1a9-2c55a1e55c35",
+  "prevId": "a91e8a70-b55e-490b-a090-83b20ff81447",
   "version": "7",
   "dialect": "postgresql",
   "tables": {
@@ -45,6 +45,12 @@
         },
         "price": {
           "name": "price",
+          "type": "double precision",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "age": {
+          "name": "age",
           "type": "double precision",
           "primaryKey": false,
           "notNull": true
