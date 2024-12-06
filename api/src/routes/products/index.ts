@@ -1,9 +1,9 @@
 import { Router } from "express"
-import { listProducts, getProductById, createProduct, updateProduct, deleteProduct } from "./productController"
-import { validateData } from "../../middlewares/validationMiddleware"
+import { listProducts, getProductById, createProduct, updateProduct, deleteProduct } from "./productController.js"
+import { validateData } from "../../middlewares/validationMiddleware.js"
 
-import { createProductSchema, updateProductSchema } from "../../db/productSchema";
-import { verifySeller, verifyToken } from "../../middlewares/authMiddleware";
+import { createProductSchema, updateProductSchema } from "../../db/productSchema.js";
+import { verifySeller, verifyToken } from "../../middlewares/authMiddleware.js";
 
 
 // type ProductType = z.infer<typeof createProductSchema>

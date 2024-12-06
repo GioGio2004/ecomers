@@ -1,6 +1,6 @@
 import express, {json, urlencoded} from 'express'
-import productsRouter from './routes/products/index'
-import authsRoutes from './routes/auth/index'
+import productsRouter from './routes/products/index.js'
+import authsRoutes from './routes/auth/index.js'
 
 
 const port = 3000
